@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MyApp</string>
+    <string name="barra_de_rolagem">Barra de rolagem</string>
+    <string name="add">Add</string>
+    <string name="menu_de_navega_o_inferior">Menu de navegação inferior</string>
+    <string name="editar">editar</string>
 </resources>
