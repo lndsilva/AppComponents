@@ -11,12 +11,16 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/idToolBar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:contentDescription="MenuNav"
+            android:minHeight="?attr/actionBarSize"
+            app:menu="@menu/menu_top_bar"
+            app:navigationIcon="@drawable/baseline_menu" />
 
 
     </com.google.android.material.appbar.AppBarLayout>
-
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
